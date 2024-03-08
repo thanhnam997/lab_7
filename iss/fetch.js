@@ -7,7 +7,7 @@ let update=10000;
 let issMarker
 let icon = L.icon({
     iconUrl: 'iss.icon.png',
-    iconSize: [40, 40],
+    iconSize: [50, 50],
     iconAnchor: [25, 25]
 });
 
