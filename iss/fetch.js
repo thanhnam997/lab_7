@@ -6,7 +6,7 @@ let timeisslocationFetch=document.querySelector('#time')
 let update=10000;
 let issMarker
 let issIcon=L.icon({
-    iconUrl:"C:\Users\thanh\OneDrive - MNSCU\Documents\GitHub\lab_7\iss\noun-iss-956251.png",
+    iconUrl:"icon_iss.PNG",
     iconSize:[50,50],
     iconAnchor:[]
 })
