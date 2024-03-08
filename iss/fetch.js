@@ -8,7 +8,7 @@ let issMarker
 let issIcon=L.icon({
     iconUrl:"icon_iss.PNG",
     iconSize:[50,50],
-    iconAnchor:[]
+    iconAnchor:[25,25]
 })
 
 
