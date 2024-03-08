@@ -31,7 +31,7 @@ let long= issData. longitude
 issLat. innerHTML = lat
 issLong. innerHTML = long
 
-let issMarker = L.marker( [lat,long]).addTo(map)
+let issMarker = L.marker( [lat,long],{icon:icon}).addTo(map)
 //create marker if it does'nt exist
 //move marker if it does exist
 
