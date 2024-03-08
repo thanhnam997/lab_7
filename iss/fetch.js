@@ -5,11 +5,11 @@ let issLong = document.querySelector('#iss-long')
 let timeisslocationFetch=document.querySelector('#time')
 let update=10000;
 let issMarker
-let issIcon=L.icon({
-    iconUrl:"icon_iss.PNG",
-    iconSize:[50,50],
-    iconAnchor:[25,25]
-})
+let issIcon = L.icon({
+    iconUrl: 'C:/Users/thanh/OneDrive - MNSCU/Documents/GitHub/lab_7/iss/iss.icon.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 25]
+});
 
 
 let map = L.map('iss-map').setView([0, 0], 1); // center at 0,0 and max zoom
