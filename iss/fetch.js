@@ -5,9 +5,9 @@ let issLong = document.querySelector('#iss-long')
 let timeisslocationFetch=document.querySelector('#time')
 let update=10000;
 let issMarker
-let issIcon = L.icon({
+let icon = L.icon({
     iconUrl: 'iss.icon.png',
-    iconSize: [50, 50],
+    iconSize: [40, 40],
     iconAnchor: [25, 25]
 });
 
@@ -36,7 +36,7 @@ let issMarker = L.marker( [lat,long]).addTo(map)
 //move marker if it does exist
 
 if(!issMarker){
-    issMarker=L.marker([lat,long]).addTo(map)
+    issMarker=L.marker([lat,long],{icon:icon}).addTo(map)
 }else{
     issMarker.setLatLng([lat,long])
 }
